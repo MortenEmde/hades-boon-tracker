@@ -1,0 +1,370 @@
+{
+  "boons": [
+    {
+      "name": "Divine Strike",
+      "slot": "Attack",
+      "description": "Your Attack is stronger, and can Deflect.",
+      "effect": "Attack Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+40%"
+        },
+        {
+          "type": "Rare",
+          "number": "+52-60%"
+        },
+        {
+          "type": "Epic",
+          "number": "+72-80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+92-100%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Divine Flourish",
+      "slot": "Special",
+      "description": "Your Special is stronger, and can Deflect.",
+      "effect": "Special Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60%"
+        },
+        {
+          "type": "Rare",
+          "number": "+78-90%"
+        },
+        {
+          "type": "Epic",
+          "number": "+108-120%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+138-150%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Phalanx Shot",
+      "slot": "Cast",
+      "description": "Your Cast damages foes in a small area, and can Deflect.",
+      "effect": "Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "85"
+        },
+        {
+          "type": "Rare",
+          "number": "102"
+        },
+        {
+          "type": "Epic",
+          "number": "119"
+        },
+        {
+          "type": "Heroic",
+          "number": "136"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 250"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Divine Dash",
+      "slot": "Dash",
+      "description": "Your Dash deals damage and can Deflect.",
+      "effect": "Dash Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "12"
+        },
+        {
+          "type": "Epic",
+          "number": "14"
+        },
+        {
+          "type": "Heroic",
+          "number": "16"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Athena's Aid",
+      "slot": "Call",
+      "description": "Your Call briefly makes you Invulnerable and Deflect all attacks.",
+      "effect": "Effect Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "1.5 Sec."
+        },
+        {
+          "type": "Rare",
+          "number": "1.65 Sec."
+        },
+        {
+          "type": "Epic",
+          "number": "1.8 Sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "1.95 Sec."
+        }
+      ],
+      "tier": "1",
+      "notes": ["Max Gauge Bonus: x6 Duration"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Holy Shield",
+      "slot": "Passive",
+      "description": "After you take damage, damage nearby foes and briefly Deflect.",
+      "effect": "Revenge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30"
+        },
+        {
+          "type": "Rare",
+          "number": "39-45"
+        },
+        {
+          "type": "Epic",
+          "number": "54-60"
+        },
+        {
+          "type": "Heroic",
+          "number": "69-75"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 225"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Bronze Skin",
+      "slot": "Passive",
+      "description": "Resist damage from foes' attacks.",
+      "effect": "Reduced Damage from Foes",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5%"
+        },
+        {
+          "type": "Rare",
+          "number": "7.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "10%"
+        },
+        {
+          "type": "Heroic",
+          "number": "12.5%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Sure Footing",
+      "slot": "Passive",
+      "description": "Resist damage from Traps.",
+      "effect": "Reduced Trap Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60%"
+        },
+        {
+          "type": "Rare",
+          "number": "75%"
+        },
+        {
+          "type": "Epic",
+          "number": "90%"
+        },
+        {
+          "type": "Heroic",
+          "number": "95%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Allows the player to walk in Asphodel's lava without taking damage for a short amount of time.", "Does not protect against puddles of lava created by fireballs.", "This boon cannot be upgraded via poms."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Proud Bearing",
+      "slot": "Passive",
+      "description": "You begin each Encounter with your God Gauge partly full.",
+      "effect": "Starting Gauge",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "20%"
+        },
+        {
+          "type": "Rare",
+          "number": "25%"
+        },
+        {
+          "type": "Epic",
+          "number": "30%"
+        },
+        {
+          "type": "Heroic",
+          "number": "40%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Blinding Flash",
+      "slot": "Passive",
+      "description": "Your abilities that can Deflect also make foes Exposed for 5 Sec.",
+      "effect": "Bonus Backstab Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+50%"
+        },
+        {
+          "type": "Rare",
+          "number": "+62.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+75%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+87.5%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Divine Dash", "Divine Flourish", "Divine Strike", "Phalanx Flare", "Phalanx Shot"]
+    },
+    {
+      "name": "Brilliant Riposte",
+      "slot": "Passive",
+      "description": "When you Deflect attacks, they deal more damage.",
+      "effect": "Deflect Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+80%"
+        },
+        {
+          "type": "Rare",
+          "number": "+104-120%"
+        },
+        {
+          "type": "Epic",
+          "number": "+160-200%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Divine Dash", "Divine Flourish", "Divine Strike", "Holy Shield"]
+    },
+    {
+      "name": "Deathless Stand",
+      "slot": "Passive",
+      "description": "Death Defiance makes you Impervious longer. Replenish 1 charge now.",
+      "effect": "Effect Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+2 Sec."
+        },
+        {
+          "type": "Rare",
+          "number": "+2.5 Sec."
+        },
+        {
+          "type": "Epic",
+          "number": "+3 Sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "+3.5 Sec."
+        }
+      ],
+      "tier": "2",
+      "notes": ["Unsellable"],
+      "prerequisites": ["Divine Dash", "Divine Flourish", "Divine Strike", "Phalanx Shot"]
+    },
+    {
+      "name": "Last Stand",
+      "slot": "Passive",
+      "description": "Death Defiance restores more Health than usual. Replenish 1 charge now.",
+      "effect": "Improved Restoration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10%"
+        },
+        {
+          "type": "Rare",
+          "number": "12%"
+        },
+        {
+          "type": "Epic",
+          "number": "14%"
+        },
+        {
+          "type": "Heroic",
+          "number": "16%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["Unsellable"],
+      "prerequisites": ["Divine Dash", "Divine Flourish", "Divine Strike", "Phalanx Shot"]
+    },
+    {
+      "name": "Divine Protection",
+      "slot": "Passive",
+      "description": "You have a barrier that negates incoming damage.",
+      "effect": "Barrier Cooldown",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "20 Sec."
+        }
+      ],
+      "tier": "3",
+      "notes": ["Attacks that are successfully blocked do not remove the barrier."],
+      "prerequisites": ["Brilliant Riposte"]
+    }
+  ]
+}

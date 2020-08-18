@@ -1,0 +1,401 @@
+{
+  "boons": [
+    {
+      "name": "Heartbreak Strike",
+      "slot": "Attack",
+      "description": "Your Attack deals more damage and inflicts Weak.",
+      "effect": "Attack Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+50%"
+        },
+        {
+          "type": "Rare",
+          "number": "+65-75%"
+        },
+        {
+          "type": "Epic",
+          "number": "+90-100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+115-125%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Weak duration: 3 Sec."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Heartbreak Flourish",
+      "slot": "Special",
+      "description": "Your Special deals more damage and inflicts Weak.",
+      "effect": "Special Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+80%"
+        },
+        {
+          "type": "Rare",
+          "number": "+104-120%"
+        },
+        {
+          "type": "Epic",
+          "number": "+144-160%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+184-200%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Weak Duration: 3 Sec."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Crush Shot",
+      "slot": "Cast",
+      "description": "Your Cast is a wide, short-range blast that inflicts Weak.",
+      "effect": "Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "90"
+        },
+        {
+          "type": "Rare",
+          "number": "99"
+        },
+        {
+          "type": "Epic",
+          "number": "108"
+        },
+        {
+          "type": "Heroic",
+          "number": "117"
+        }
+      ],
+      "tier": "1",
+      "notes": [
+        "Range: 300",
+        "Weak Duration: 3 Sec.",
+        "Cannot be combined with Aspect of Beowulf"
+      ],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Passion Dash",
+      "slot": "Dash",
+      "description": "Your Dash inflicts damage where you end up, inflicting Weak.",
+      "effect": "Dash Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "20"
+        },
+        {
+          "type": "Rare",
+          "number": "24"
+        },
+        {
+          "type": "Epic",
+          "number": "28"
+        },
+        {
+          "type": "Heroic",
+          "number": "32"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Weak Duration: 3 Sec.", "Damage Radius: 180"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Aphrodite's Aid",
+      "slot": "Call",
+      "description": "Your Call fires a seeking projectile that inflicts Charm.",
+      "effect": "Charm Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5 Sec."
+        },
+        {
+          "type": "Rare",
+          "number": "5.5 Sec."
+        },
+        {
+          "type": "Epic",
+          "number": "6 Sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "6.5 Sec."
+        }
+      ],
+      "tier": "1",
+      "notes": ["The charm projectile pierces foes."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Dying Lament",
+      "slot": "Passive",
+      "description": "When foes are slain, they damage nearby foes and inflict Weak.",
+      "effect": "Death Blast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "40"
+        },
+        {
+          "type": "Rare",
+          "number": "52-60"
+        },
+        {
+          "type": "Epic",
+          "number": "72-80"
+        },
+        {
+          "type": "Heroic",
+          "number": "92-100"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 200"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Wave of Despair",
+      "slot": "Passive",
+      "description": "After you take damage, damage nearby foes and inflict Weak.",
+      "effect": "Revenge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "50"
+        },
+        {
+          "type": "Rare",
+          "number": "65-75"
+        },
+        {
+          "type": "Epic",
+          "number": "90-100"
+        },
+        {
+          "type": "Heroic",
+          "number": "115-125"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 700"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Different League",
+      "slot": "Passive",
+      "description": "Resist some damage from nearby foes' attacks.",
+      "effect": "Reduced Damage from Foes",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10%"
+        },
+        {
+          "type": "Rare",
+          "number": "12.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "15%"
+        },
+        {
+          "type": "Heroic",
+          "number": "17.5%"
+        }
+      ],
+      "tier": "Tire 1",
+      "notes": ["Proximity Threshold: 400"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Life Affirmation",
+      "slot": "Passive",
+      "description": "Any Health-increase or Healing chamber rewards are worth more.",
+      "effect": "Reward Value",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+30%"
+        },
+        {
+          "type": "Rare",
+          "number": "36%"
+        },
+        {
+          "type": "Epic",
+          "number": "42%"
+        },
+        {
+          "type": "Heroic",
+          "number": "48%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Empty Inside",
+      "slot": "Passive",
+      "description": "Your Weak effects have a longer duration.",
+      "effect": "Weak Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+5 sec."
+        },
+        {
+          "type": "Rare",
+          "number": "+7.5 sec."
+        },
+        {
+          "type": "Epic",
+          "number": "+10 sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "+12.5 sec."
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": [
+        "Passion Dash",
+        "Crush Shot",
+        "Heartbreak Strike",
+        "Heartbreak Flourish",
+        "Passion Flare"
+      ]
+    },
+    {
+      "name": "Sweet Surrender",
+      "slot": "Passive",
+      "description": "Weak-afflicted foes are also more susceptible to damage.",
+      "effect": "Damage vs. Weak",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+13-15%"
+        },
+        {
+          "type": "Epic",
+          "number": "+20-25%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+25-27%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": [
+        "Passion Dash",
+        "Crush Shot",
+        "Heartbreak Strike",
+        "Heartbreak Flourish",
+        "Passion Flare"
+      ]
+    },
+    {
+      "name": "Broken Resolve",
+      "slot": "Passive",
+      "description": "Your Weak effects are more potent.",
+      "effect": "Weak Damage Reduction",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+15%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+17.5%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": [
+        "Crush Shot",
+        "Heartbreak Flourish",
+        "Heartbreak Strike",
+        "Passion Dash",
+        "Passion Flare"
+      ]
+    },
+    {
+      "name": "Blown Kiss",
+      "slot": "Passive",
+      "description": "Your Cast shoots farther and is stronger against undamaged foes.",
+      "effect": "First-Hit Bonus Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "50%"
+        },
+        {
+          "type": "Rare",
+          "number": "75%"
+        },
+        {
+          "type": "Epic",
+          "number": "100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "125%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["Cast range is doubled and is also 30% wider."],
+      "prerequisites": ["Crush Shot"]
+    },
+    {
+      "name": "Unhealthy Fixation",
+      "slot": "Passive",
+      "description": "Your Weak effects also have a 15% chance to Charm foes.",
+      "effect": "Charm Duration",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "4 Sec."
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites":
+        [
+          "Passion Dash",
+          "Crush Shot",
+          "Heartbreak Strike",
+          "Heartbreak Flourish",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo": 
+        ["Empty Inside", "Sweet Surrender", "Broken Resolve"]
+    }
+  ]
+}

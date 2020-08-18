@@ -1,0 +1,199 @@
+{
+  "boons": [
+    {
+      "name": "Curse of Longing",
+      "slot": "Passive",
+      "description": "Your Doom effects continuously strike Weak foes.",
+      "effect": "Successive Hit Damage",
+      "rarity": [
+        {
+          "type": "Duo (Aphrodite/Ares)",
+          "number": "50%"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Ares"],
+      "prerequisites": 
+        [
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        ["Curse of Agony", "Curse of Pain"]
+    },
+    {
+      "name": "Heart Rend",
+      "slot": "Passive",
+      "description": "Your Critical effects deal even more damage to Weak foes.",
+      "effect": "Bonus Critical Damage vs. Weak",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "+50%"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Artemis"],
+      "prerequisites": 
+        [
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        ["Deadly Flourish", "Deadly Strike", "Hunter's Flare", "True Shot"]
+    },
+    {
+      "name": "Parting Shot",
+      "slot": "Passive",
+      "description": "Your Cast gains any bonuses you have for striking foes from behind.",
+      "effect": "Bonus Backstab Damage",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "+25%"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Athena", "Cannot be combined with Trippy Shot"],
+      "prerequisites":
+        [
+          "Aphrodite's Aid",
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        [
+          "Athena's Aid",
+          "Divine Dash",
+          "Divine Flourish",
+          "Divine Strike",
+          "Phalanx Flare",
+          "Phalanx Shot"
+      ]
+    },
+    {
+      "name": "Cold Embrace",
+      "slot": "Passive",
+      "description": "Your Cast crystal fires its beam directly at you for 4 seconds.",
+      "effect": "Bonus Cast Damage",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "+30%"
+        }
+      ],
+      "tier": "Duo",
+      "notes": [
+        "Aphrodite",
+        "Demeter",
+        "Cannot be combined with Crystal Clarity"
+      ],
+      "prerequisites":
+        [
+          "Aphrodite's Aid",
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash"
+        ],
+      "prerequisitesDuo":
+        ["Crystal Beam"]
+    },
+    {
+      "name": "Low Tolerance",
+      "slot": "Passive",
+      "description": "Your Hangover effects stack even more times against Weak foes.",
+      "effect": "Bonus Hangover Stacks",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "3"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Dionysus"],
+      "prerequisites": 
+        [
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
+    },
+    {
+      "name": "Sweet Nectar",
+      "slot": "Passive",
+      "description": "Any Poms of Power you find are more effective.",
+      "effect": "Bonus Lv. from Poms",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "+1"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Poseidon"],
+      "prerequisites": 
+        [
+          "Aphrodite's Aid",
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        [
+          "Flood Shot",
+          "Poseidon's Aid",
+          "Tempest Flourish",
+          "Tempest Strike",
+          "Tidal Dash"
+        ]
+    },
+    {
+      "name": "Smoldering Air",
+      "slot": "Passive",
+      "description": "Your Call charges up automatically, but is capped at 25%.",
+      "effect": "Auto Gauge Gain",
+      "rarity": [
+        {
+          "type": "Duo",
+          "number": "1% every 0.2 seconds"
+        }
+      ],
+      "tier": "Duo",
+      "notes": ["Aphrodite", "Zeus"],
+      "prerequisites":
+        [
+          "Aphrodite's Aid",
+          "Crush Shot",
+          "Heartbreak Flourish",
+          "Heartbreak Strike",
+          "Passion Dash",
+          "Passion Flare"
+        ],
+      "prerequisitesDuo":
+        [
+          "Electric Flare",
+          "Electric Shot",
+          "Lightning Strike",
+          "Thunder Dash",
+          "Thunder Flourish",
+          "Zeus' Aid"
+        ]
+    }
+  ]
+}

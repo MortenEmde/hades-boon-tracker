@@ -1,0 +1,370 @@
+{
+  "boons": [
+    {
+      "name": "Lightning Strike",
+      "slot": "Attack",
+      "description": "Your Attack emits chain-lightning when you damage a foe.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "12.5"
+        },
+        {
+          "type": "Epic",
+          "number": "15"
+        },
+        {
+          "type": "Heroic",
+          "number": "20"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Bounces: 4", "Bounce Range: 520", "Deals reduced damage per bounce."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Thunder Flourish",
+      "slot": "Special",
+      "description": "Your Special causes a lightning bolt to strike nearby foes.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30"
+        },
+        {
+          "type": "Rare",
+          "number": "37.5"
+        },
+        {
+          "type": "Epic",
+          "number": "45"
+        },
+        {
+          "type": "Heroic",
+          "number": "60"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Has internal cooldown of .2 per target. (Bolt only triggers, at most, 5 times per second per enemy)", "Damage Radius: 200"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Electric Shot",
+      "slot": "Cast",
+      "description": "Your Cast is a burst of chain-lightning that bounces between foes.",
+      "effect": "Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60"
+        },
+        {
+          "type": "Rare",
+          "number": "72"
+        },
+        {
+          "type": "Epic",
+          "number": "84"
+        },
+        {
+          "type": "Heroic",
+          "number": "96"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Bounces: 5", "Bounce Range: 720", "Cannot be combined with Aspect of Beowulf"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Thunder Dash",
+      "slot": "Dash",
+      "description": "Your Dash causes a lightning bolt to strike nearby foes.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "13.3"
+        },
+        {
+          "type": "Epic",
+          "number": "16.6"
+        },
+        {
+          "type": "Heroic",
+          "number": "20"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Range: 500", "Damage Radius: 200"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Zeus' Aid",
+      "slot": "Call",
+      "description": "Your Call makes lightning strike nearby foes repeatedly for 1.5 Sec.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60"
+        },
+        {
+          "type": "Rare",
+          "number": "66"
+        },
+        {
+          "type": "Epic",
+          "number": "72"
+        },
+        {
+          "type": "Heroic",
+          "number": "84"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Max Gauge Bonus: 9 Sec. Duration"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Heaven's Vengeance",
+      "slot": "Passive",
+      "description": "After you take damage, your foe is struck by lightning.",
+      "effect": "Revenge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "80"
+        },
+        {
+          "type": "Rare",
+          "number": "104-120"
+        },
+        {
+          "type": "Epic",
+          "number": "144-160"
+        },
+        {
+          "type": "Heroic",
+          "number": "184-200"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 120"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Lightning Reflexes",
+      "slot": "Passive",
+      "description": "After you Dash just before getting hit, a bolt strikes a nearby foes.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "20"
+        },
+        {
+          "type": "Rare",
+          "number": "30"
+        },
+        {
+          "type": "Epic",
+          "number": "40"
+        },
+        {
+          "type": "Heroic",
+          "number": "50"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Storm Lightning",
+      "slot": "Passive",
+      "description": "Your chain-lightning effects bounce more times before expiring.",
+      "effect": "Lightning Bounces",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+2"
+        },
+        {
+          "type": "Rare",
+          "number": "+4"
+        },
+        {
+          "type": "Epic",
+          "number": "+6"
+        },
+        {
+          "type": "Heroic",
+          "number": "+8"
+        }
+      ],
+      "tier": "2",
+      "notes": ["Electric Shot gains 3, 6 or 9 jumps from this boon instead."],
+      "prerequisites": ["Electric Shot", "Lightning Strike"]
+    },
+    {
+      "name": "High Voltage",
+      "slot": "Passive",
+      "description": "Your lightning bolt effects deal damage in a larger area.",
+      "effect": "Bolt Area of Effect",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+60%"
+        },
+        {
+          "type": "Rare",
+          "number": "+72%"
+        },
+        {
+          "type": "Epic",
+          "number": "+84%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+96%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Thunder Dash", "Thunder Flourish", "or Zeus' Aid"]
+    },
+    {
+      "name": "Double Strike",
+      "slot": "Passive",
+      "description": "Your lightning bolt effects have a chance to strike twice.",
+      "effect": "Strike Chance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "25%"
+        },
+        {
+          "type": "Rare",
+          "number": "30%"
+        },
+        {
+          "type": "Epic",
+          "number": "35%"
+        },
+        {
+          "type": "Heroic",
+          "number": "40%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Thunder Dash", "Thunder Flourish", "Zeus' Aid"]
+    },
+    {
+      "name": "Static Discharge",
+      "slot": "Passive",
+      "description": "Your lightning effects also make foes Jolted.",
+      "effect": "Jolt Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60"
+        },
+        {
+          "type": "Rare",
+          "number": "78-90"
+        },
+        {
+          "type": "Epic",
+          "number": "108-120"
+        },
+        {
+          "type": "Heroic",
+          "number": "138-150"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Electric Flare", "Electric Shot", "Heaven's Vengeance", "Lightning Strike", "Thunder Dash", "Thunder Flourish", "Zeus' Aid"]
+    },
+    {
+      "name": "Clouded Judgment",
+      "slot": "Passive",
+      "description": "Your God Gauge charges faster when you deal or take damage.",
+      "effect": "Faster Wrath Gain",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+12%"
+        },
+        {
+          "type": "Epic",
+          "number": "+14%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+16%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Billowing Strength",
+      "slot": "Passive",
+      "description": "After using Call, you deal more damage for 15 Sec.",
+      "effect": "Bonus Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+20%"
+        },
+        {
+          "type": "Rare",
+          "number": "+22%"
+        },
+        {
+          "type": "Epic",
+          "number": "+24%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+26%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Splitting Bolt",
+      "slot": "Passive",
+      "description": "All your lightning effects create an additional burst.",
+      "effect": "Lightning Damage",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "40"
+        }
+      ],
+      "tier": "3",
+      "notes": ["The additional burst is a slow moving spark.", "Spark Speed: 500", "Bounces: 5", "Bounce Range: 520"],
+      "prerequisites": ["Double Strike", "High Voltage", "Storm Lightning"]
+    }
+  ]
+}

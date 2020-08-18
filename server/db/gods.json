@@ -1,0 +1,74 @@
+{
+  "gods": [
+    {
+      "name": "Aphrodite",
+      "title": "Goddess of Love",
+      "affiliation": "Mount Olympus",
+      "voice": "Courtney Vineys",
+      "symbol": "http://localhost:5000/aphroditeSymbol.jpeg"
+    },
+    {
+      "name": "Ares",
+      "title": "God of War",
+      "affiliation": "Mount Olympus",
+      "voice": "Cyrus Nemati",
+      "symbol": "http://localhost:5000/aresSymbol.jpeg"
+    },
+    {
+      "name": "Artemis",
+      "title": "Goddess of the Hunt",
+      "affiliation": "Mount Olympus",
+      "voice": "Jamie Landrum",
+      "symbol": "http://localhost:5000/artemisSymbol.jpeg"
+    },
+    {
+      "name": "Athena",
+      "title": "Goddess of Wisdom",
+      "affiliation": "Mount Olympus",
+      "voice": "Marianne Miller",
+      "symbol": "http://localhost:5000/athenaSymbol.jpeg"
+    },
+    {
+      "name": "Chaos",
+      "title": "Primordial Originator",
+      "affiliation": "None",
+      "voice": "Peter Canavese",
+      "symbol": "http://localhost:5000/chaosSymbol.jpeg" 
+    },
+    {
+      "name": "Demeter",
+      "title": "Goddess of Seasons",
+      "affiliation": "Mount Olympus",
+      "voice": "Laila Berzins",
+      "symbol": "http://localhost:5000/demeterSymbol.jpeg" 
+    },
+    {
+      "name": "Dionysus",
+      "title": "God of Wine",
+      "affiliation": "Mount Olympus",
+      "voice": "Cyrus Nemati",
+      "symbol": "http://localhost:5000/dionysusSymbol.jpeg" 
+    },
+    {
+      "name": "Hermes",
+      "title": "God of Swiftness",
+      "affiliation": "Mount Olympus",
+      "voice": "Andrew Marks",
+      "symbol": "http://localhost:5000/hermesSymbol.jpeg" 
+    },
+    {
+      "name": "Poseidon",
+      "title": "God of the Sea",
+      "affiliation": "Mount Olympus",
+      "voice": "Logan Cunningham",
+      "symbol": "http://localhost:5000/poseidonSymbol.jpeg" 
+    },
+    {
+      "name": "Zeus",
+      "title": "King of the Olympians",
+      "affiliation": "Mount Olympus",
+      "voice": "Peter Canavese",
+      "symbol": "http://localhost:5000/zeusSymbol.jpeg" 
+    }
+  ]
+}

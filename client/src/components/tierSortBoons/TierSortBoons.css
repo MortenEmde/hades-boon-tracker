@@ -1,0 +1,6 @@
+.tier1Boons, .tier2Boons, .tier3Boons {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+}

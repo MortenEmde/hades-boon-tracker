@@ -1,0 +1,343 @@
+{
+  "boons": [
+    {
+      "name": "Deadly Strike",
+      "slot": "Attack",
+      "description": "Your Attack is stronger, with +15% chance to deal Critical damage.",
+      "effect": "Attack Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+20%"
+        },
+        {
+          "type": "Rare",
+          "number": "+26-30%"
+        },
+        {
+          "type": "Epic",
+          "number": "+36-40%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+46-50%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Deadly Flourish",
+      "slot": "Special",
+      "description": "Your Special is stronger, with +20% chance to deal Critical Damage.",
+      "effect": "Special Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+40%"
+        },
+        {
+          "type": "Rare",
+          "number": "+52-60%"
+        },
+        {
+          "type": "Epic",
+          "number": "+72-80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+92-100%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "True Shot",
+      "slot": "Cast",
+      "description": "Your Cast seeks foes, with a 10% chance to deal Critical damage.",
+      "effect": "Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "70"
+        },
+        {
+          "type": "Rare",
+          "number": "80"
+        },
+        {
+          "type": "Epic",
+          "number": "90"
+        },
+        {
+          "type": "Heroic",
+          "number": "100"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Unblockable by shield-bearing foes", "Cannot be combined with Aspect of Beowulf"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Hunter Dash",
+      "slot": "Dash",
+      "description": "Your Dash-Strike deals more damage",
+      "effect": "Dash Attack Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+50%"
+        },
+        {
+          "type": "Rare",
+          "number": "+75%"
+        },
+        {
+          "type": "Epic",
+          "number": "+100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+125"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Cannot be combined with Aspect of Lucifer"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Artemis' Aid",
+      "slot": "Call",
+      "description": "Your Call fires a seeking arrow with +35% Critical chance.",
+      "effect": "Arrow Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "100"
+        },
+        {
+          "type": "Rare",
+          "number": "110"
+        },
+        {
+          "type": "Epic",
+          "number": "120"
+        },
+        {
+          "type": "Heroic",
+          "number": "130"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Unblockable by shield-bearing foes.", "Costs 1/5th of the God Gauge per use (while other Gods' Aids cost 1/4th)", "Max Gauge Bonus - Arrows Fired : 10"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Pressure Points",
+      "slot": "Passive",
+      "description": "Any damage you deal has a chance to be Critical.",
+      "effect": "Bonus Critical Chance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+3%"
+        },
+        {
+          "type": "Rare",
+          "number": "+4%"
+        },
+        {
+          "type": "Epic",
+          "number": "+5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+6%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Exit Wounds",
+      "slot": "Passive",
+      "description": "Your foes take damage when your Cast Ammo stuck in them is dislodged.",
+      "effect": "Dislodge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "100"
+        },
+        {
+          "type": "Rare",
+          "number": "120"
+        },
+        {
+          "type": "Epic",
+          "number": "140"
+        },
+        {
+          "type": "Heroic",
+          "number": "160"
+        }
+      ],
+      "tier": "2",
+      "notes": ["Cannot be combined with Aspect of Beowulf", "Cannot be combined with Crystal Beam", "Cannot be combined with Slicing Shot", "Cannot be combined with Trippy Shot"],
+      "prerequisites": ["Crush Shot", "Electric Shot", "Flood Shot", "Phalanx Shot", "True Shot"]
+    },
+    {
+      "name": "Hide Breaker",
+      "slot": "Passive",
+      "description": "Your Critical effects deal even more damage to Armor.",
+      "effect": "Critical Damage Bonus vs. Armor",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "200%"
+        },
+        {
+          "type": "Rare",
+          "number": "260-300%"
+        },
+        {
+          "type": "Epic",
+          "number": "360-400%"
+        },
+        {
+          "type": "Heroic",
+          "number": "460-500%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Artemis' Aid", "Deadly Flourish", "Deadly Strike", "Pressure Points", "True Shot"]
+    },
+    {
+      "name": "Clean Kill",
+      "slot": "Passive",
+      "description": "Your Critical effects deal even more damage.",
+      "effect": "Critical Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+15%"
+        },
+        {
+          "type": "Rare",
+          "number": "+22.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+30%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+37.5%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Artemis' Aid", "Deadly Flourish", "Deadly Strike", "Pressure Points", "True Shot"]
+    },
+    {
+      "name": "Hunter Instinct",
+      "slot": "Passive",
+      "description": "Your God Gauge charges faster when you deal Critical damage.",
+      "effect": "Faster Gauge Gain on Critical",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+0.25%"
+        },
+        {
+          "type": "Rare",
+          "number": "+0.3%"
+        },
+        {
+          "type": "Epic",
+          "number": "+0.35%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+0.4%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Deadly Flourish", "Deadly Strike", "Pressure Points", "True Shot"]
+    },
+    {
+      "name": "Hunter's Mark",
+      "slot": "Passive",
+      "description": "After you deal Critical damage to a foe, a foe near it is Marked.",
+      "effect": "Bonus Crit Chance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+30%"
+        },
+        {
+          "type": "Rare",
+          "number": "+39-45%"
+        },
+        {
+          "type": "Epic",
+          "number": "+60-75%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+75-81%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["Range: 1200", "'Marked' effect expires after taking Critical damage."],
+      "prerequisites": ["Artemis' Aid", "Deadly Flourish", "Deadly Strike", "Pressure Points", "True Shot"]
+    },
+    {
+      "name": "Support Fire",
+      "slot": "Passive",
+      "description": "After you hit with an Attack, Cast or Special, fire a seeking arrow.",
+      "effect": "Projectile Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "12"
+        },
+        {
+          "type": "Epic",
+          "number": "14"
+        },
+        {
+          "type": "Heroic",
+          "number": "16"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Artemis' Aid", "Deadly Flourish", "Deadly Strike", "Hunter Dash", "Hunter's Flare", "Pressure Points", "True Shot"]
+    },
+    {
+      "name": "Fully Loaded",
+      "slot": "Passive",
+      "description": "Gain extra Cast Ammo for your Cast.",
+      "effect": "Max Ammo:",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "+2 Cast Ammo"
+        }
+      ],
+      "tier": "3",
+      "notes": ["Requires two of the three Prerequisite Boons"],
+      "prerequisites": ["Exit Wounds", "Hunter's Mark", "Support Fire"]
+    }
+  ]
+}

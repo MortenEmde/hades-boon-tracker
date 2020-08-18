@@ -1,0 +1,410 @@
+{
+  "boons": [
+    {
+      "name": "Swift Strike",
+      "slot": "Passive",
+      "description": "Your Attack is +X% faster.",
+      "effect": "Attack Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Rare",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+12.5%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Works in decreasing weapon attack charge time by X%"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Swift Flourish",
+      "slot": "Passive",
+      "description": "Your Special is +X% faster.",
+      "effect": "Special Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Rare",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+12.5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+12.5%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Works in decreasing weapon special charge time by X%"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Flurry Cast",
+      "slot": "Passive",
+      "description": "Your Cast is +X% faster and fully automatic.",
+      "effect": "Cast Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+20%"
+        },
+        {
+          "type": "Rare",
+          "number": "+40%"
+        },
+        {
+          "type": "Epic",
+          "number": "+60%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+80%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Cannot be combined with Aspect of Beowulf", "Cannot be combined with Aspect of Hera", "Requires the Infernal Soul Mirror Ability"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Quick Favor",
+      "slot": "Passive",
+      "description": "Your Call charges up automatically.",
+      "effect": "Auto Gauge Gain",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Rare",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Epic",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Heroic",
+          "number": "MISSING DATA"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Hyper Sprint",
+      "slot": "Passive",
+      "description": "For X seconds after you Dash, become Sturdy and run Y% faster.",
+      "effect": "Duration: X and Movement Speed: Y",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "0.5 sec. and +50%"
+        },
+        {
+          "type": "Rare",
+          "number": "0.75 sec. and +75%"
+        },
+        {
+          "type": "Epic",
+          "number": "1 sec. and +100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "1.25 sec. and +125%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Greater Haste",
+      "slot": "Passive",
+      "description": "You move X% faster.",
+      "effect": "Movement Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+20%"
+        },
+        {
+          "type": "Rare",
+          "number": "+30%"
+        },
+        {
+          "type": "Epic",
+          "number": "+40%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+49%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Quick Recovery",
+      "slot": "Passive",
+      "description": "After you take damage, quickly Dash to recover up to X% Health lost.",
+      "effect": "Health recovered",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "20%"
+        },
+        {
+          "type": "Rare",
+          "number": "30%"
+        },
+        {
+          "type": "Epic",
+          "number": "40%"
+        },
+        {
+          "type": "Heroic",
+          "number": "50%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Greater Evasion",
+      "slot": "Passive",
+      "description": "You have +X% chance to Dodge.",
+      "effect": "Dodge Chance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+15%"
+        },
+        {
+          "type": "Rare",
+          "number": "+20%"
+        },
+        {
+          "type": "Epic",
+          "number": "+25%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+30%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Greatest Reflex",
+      "slot": "Passive",
+      "description": "You can Dash +X more time(s) in a row.",
+      "effect": "Extra Dashes",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+1"
+        },
+        {
+          "type": "Rare",
+          "number": "+2"
+        },
+        {
+          "type": "Epic",
+          "number": "+3"
+        },
+        {
+          "type": "Heroic",
+          "number": "+4"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Second Wind",
+      "slot": "Passive",
+      "description": "After using Call, gain Dodge chance and move speed for 6 Sec.",
+      "effect": "Bonus Dodge Chance & Move Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+30%"
+        },
+        {
+          "type": "Rare",
+          "number": "+37.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "+45%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+52.5%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Quick Reload",
+      "slot": "Passive",
+      "description": "Foes drop Cast Ammo stuck in them faster.",
+      "effect": "Drop Time",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Rare",
+          "number": "6.67 Sec"
+        },
+        {
+          "type": "Epic",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Heroic",
+          "number": "MISSING DATA"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Cannot be combined with Aspect of Beowulf", "Cannot be combined with Crystal Beam", "Cannot be combined with Curse of Drowning", "Cannot be combined with Slicing Shot", "Cannot be combined with Trippy shot", "Requires the Infernal Soul Mirror Ability"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Side Hustle",
+      "slot": "Passive",
+      "description": "Each time you enter a Chamber, gain a bit wealth.",
+      "effect": "Bonus Wealth per Chamber",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10 Obols"
+        },
+        {
+          "type": "Rare",
+          "number": "+13 Obols"
+        },
+        {
+          "type": "Epic",
+          "number": "+16 Obols"
+        },
+        {
+          "type": "Heroic",
+          "number": "+19 Obols"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Rush Delivery",
+      "slot": "Passive",
+      "description": "You deal bonus damage based on any bonus move speed.",
+      "effect": "Bonus Damage from Bonus Speed",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Rare",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Epic",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Heroic",
+          "number": "MISSING DATA"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Notes"],
+      "prerequisites": ["Greater Haste", "Hyper Sprint", "Lambent Plume (Keepsake Ability)"]
+    },
+    {
+      "name": "Auto Reload",
+      "slot": "Passive",
+      "description": "You regenerate Cast Ammo faster.",
+      "effect": "Regeneration Time: -X seconds",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Rare",
+          "number": "MISSING DATA"
+        },
+        {
+          "type": "Epic",
+          "number": "2.26 Sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "MISSING DATA"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Requires the Stygian Soul Mirror Ability"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Greater Recall",
+      "slot": "Passive",
+      "description": "Your Cast Ammo automatically return to you.",
+      "rarity": [
+        {
+          "type": "Legendary"
+        }
+      ],
+      "tier": "3",
+      "notes": ["Requires the Infernal Soul Mirror Ability"],
+      "prerequisites": ["Flurry Cast", "Quick Reload"]
+    },
+    {
+      "name": "Bad News",
+      "slot": "Passive",
+      "description": "Your cast deals more damage to foes without Cast Ammo on them.",
+      "effect": "First shot damage",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "+50%"
+        }
+      ],
+      "tier": "3",
+      "notes": ["Requires the Stygian Soul Mirror Ability"],
+      "prerequisites": ["Auto Reload"]
+    }
+  ]
+}

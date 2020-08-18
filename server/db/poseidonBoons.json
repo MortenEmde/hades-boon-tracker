@@ -1,0 +1,413 @@
+{
+  "boons": [
+    {
+      "name": "Tempest Strike",
+      "slot": "Attack",
+      "description": "Your Attack deals more damage and knocks foes away.",
+      "effect": "Attack Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+30%"
+        },
+        {
+          "type": "Rare",
+          "number": "+39-45%"
+        },
+        {
+          "type": "Epic",
+          "number": "+54-60%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+69-75%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Tempest Flourish",
+      "slot": "Special",
+      "description": "Your Special deals more damage and knocks foes away.",
+      "effect": "Special Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+70%"
+        },
+        {
+          "type": "Rare",
+          "number": "+91-105%"
+        },
+        {
+          "type": "Epic",
+          "number": "+126-140%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+161-175%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Flood Shot",
+      "slot": "Cast",
+      "description": "Your Cast damages foes in an area and knocks them away.",
+      "effect": "Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60"
+        },
+        {
+          "type": "Rare",
+          "number": "72"
+        },
+        {
+          "type": "Epic",
+          "number": "84"
+        },
+        {
+          "type": "Heroic",
+          "number": "96"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 500", "Impact Velocity: 2500"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Tidal Dash",
+      "slot": "Dash",
+      "description": "Your Dash damages foes in an area and knocks them away.",
+      "effect": "Dash Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "35"
+        },
+        {
+          "type": "Rare",
+          "number": "42"
+        },
+        {
+          "type": "Epic",
+          "number": "49"
+        },
+        {
+          "type": "Heroic",
+          "number": "56"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Damage Radius: 300", "Impact Velocity: 2500", "Sometimes stuns foes on impact."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Poseidon's Aid",
+      "slot": "Call",
+      "description": "Your Call makes you surge into foes while Impervious for 1.2 Sec.",
+      "effect": "Impact Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "250"
+        },
+        {
+          "type": "Rare",
+          "number": "300"
+        },
+        {
+          "type": "Epic",
+          "number": "350"
+        },
+        {
+          "type": "Heroic",
+          "number": "400"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Max Gauge Bonus: 7.2 Sec. Duration", "Impact Velocity: 3500"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Hydraulic Might",
+      "slot": "Passive",
+      "description": "Your Attack and Special are stronger the first 5 Sec. in Encounter(s).",
+      "effect": "Initial Damage Bonus",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+130%"
+        },
+        {
+          "type": "Rare",
+          "number": "+174,2%"
+        },
+        {
+          "type": "Epic",
+          "number": "+217,1%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+260%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Ocean's Bounty",
+      "slot": "Passive",
+      "description": "Any Gemstone, Darkness or Obols chamber rewards are worth more.",
+      "effect": "Reward Bonus",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+50%"
+        },
+        {
+          "type": "Rare",
+          "number": "+55%"
+        },
+        {
+          "type": "Epic",
+          "number": "+60%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+65%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Sunken Treasure",
+      "slot": "Passive",
+      "description": "Gain an assortment of Gemstone, Darkness, Obols and Health.",
+      "effect": "Obols Awarded / Health Awarded / Darkness Awarded / Chance of Nectar / Chance of Diamond",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "50-70 / 1-3 items / 50-100 / 10% / 0.03%"
+        },
+        {
+          "type": "Rare",
+          "number": "65-105 / 1-4 items / 65-150 / 13-15% / 0.04-0.05%"
+        },
+        {
+          "type": "Epic",
+          "number": "100-154 / 2-6 items / 100-220 / 20-22% / 0.06-0.07%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Consumable"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Typhoon's Fury",
+      "slot": "Passive",
+      "description": "You deal more damage when slamming foes into barriers.",
+      "effect": "Slam Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "300%"
+        },
+        {
+          "type": "Rare",
+          "number": "350%"
+        },
+        {
+          "type": "Epic",
+          "number": "400%"
+        },
+        {
+          "type": "Heroic",
+          "number": "450%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Tempest Strike", "Tidal Dash", "Flood Shot", "Tempest Flourish", "Poseidon's Aid"]
+    },
+    {
+      "name": "Razor Shoals",
+      "slot": "Passive",
+      "description": "Using knock-away effects also Rupture foes.",
+      "effect": "Rupture Damage: X every 0.2 Sec",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5"
+        },
+        {
+          "type": "Rare",
+          "number": "7.5"
+        },
+        {
+          "type": "Epic",
+          "number": "10"
+        },
+        {
+          "type": "Heroic",
+          "number": "12.5"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Flood Shot", "Poseidon's Aid", "Tempest Flourish", "Tempest Strike", "Tidal Dash"]
+    },
+    {
+      "name": "Boiling Point",
+      "slot": "Passive",
+      "description": "Your God Gauge charges faster when you take damage.",
+      "effect": "Faster Gauge Gain When Hit",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+40%"
+        },
+        {
+          "type": "Rare",
+          "number": "+50%"
+        },
+        {
+          "type": "Epic",
+          "number": "+60%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+70%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Aphrodite's Aid", "Ares' Aid", "Artemis' Aid", "Athena's Aid", "Demeter's Aid", "Dionysus' Aid", "Poseidon's Aid", "Zeus' Aid"]
+    },
+    {
+      "name": "Breaking Wave",
+      "slot": "Passive",
+      "description": "Slamming foes into walls or corners creates a watery blast in the area.",
+      "effect": "Stun Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "100"
+        },
+        {
+          "type": "Rare",
+          "number": "130-150"
+        },
+        {
+          "type": "Epic",
+          "number": "200-250"
+        },
+        {
+          "type": "Heroic",
+          "number": "250-270"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Flood Shot", "Poseidon's Aid", "Tempest Flourish", "Tempest Strike", "Tidal Dash"]
+    },
+    {
+      "name": "Wave Pounding",
+      "slot": "Passive",
+      "description": "Your boons with Knock-Away effects deal bonus damage to bosses.",
+      "effect": "Bonus damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+20%"
+        },
+        {
+          "type": "Epic",
+          "number": "+30%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+40%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Flood Shot", "Poseidon's Aid", "Tempest Flourish", "Tempest Strike", "Tidal Dash"]
+    },
+    {
+      "name": "Rip Current",
+      "slot": "Passive",
+      "description": "Your Call pulls in foes and the effect lasts longer.",
+      "effect": "Longer Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+1 Sec."
+        },
+        {
+          "type": "Rare",
+          "number": "MISSING_DATA"
+        },
+        {
+          "type": "Epic",
+          "number": "MISSING_DATA"
+        },
+        {
+          "type": "Heroic",
+          "number": "MISSING_DATA"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Poseidon's Aid"]
+    },
+    {
+      "name": "Huge Catch",
+      "slot": "Passive",
+      "description": "You have a greater chance to find Fishing Point in each Chamber.",
+      "effect": "Fish Spawn Chance",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "20%"
+        }
+      ],
+      "tier": "3",
+      "notes": ["This boon also removes the Chambers Since Last Fishing Point spawn requirement."],
+      "prerequisites": ["Ocean's Bounty", "Sunken Treasure"]
+    },
+    {
+      "name": "Second Wave",
+      "slot": "Passive",
+      "description": "Your knock-away effects shove foes a second time after the first.",
+      "effect": "Second Knockback Delay",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "0.7 Sec."
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Breaking Wave", "Razor Shoals", "Typhoon's Fury"],
+      "prerequisitesDuo": ["Flood Shot", "Poseidon's Aid", "Tempest Flourish", "Tempest Strike", "Tidal Dash"]
+    }
+  ]
+}

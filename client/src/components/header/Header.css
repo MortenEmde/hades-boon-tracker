@@ -1,0 +1,9 @@
+.headerContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.headerText {
+  margin: auto 0;
+  font-size: 3em;
+}

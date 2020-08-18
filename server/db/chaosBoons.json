@@ -1,0 +1,409 @@
+{
+  "boons": [
+    {
+      "name": "Affluence",
+      "slot": "Passive",
+      "description": "Afterward, any Obols you find is worth +X%.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30-50%"
+        },
+        {
+          "type": "Rare",
+          "number": "45-75%"
+        },
+        {
+          "type": "Epic",
+          "number": "60-100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Ambush",
+      "slot": "Passive",
+      "description": "Afterward, you deal +X% damage striking foes from behind.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "40–60%"
+        },
+        {
+          "type": "Rare",
+          "number": "60-90%"
+        },
+        {
+          "type": "Epic",
+          "number": "80–120%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Assault",
+      "slot": "Passive",
+      "description": "Afterward, you deal +X% damage striking undamaged foes.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30–40%"
+        },
+        {
+          "type": "Rare",
+          "number": "45–60%"
+        },
+        {
+          "type": "Epic",
+          "number": "60–80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Eclipse",
+      "slot": "Passive",
+      "description": "Afterward, any Darkness and Gemstone you find are worth +X%.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "75–100%"
+        },
+        {
+          "type": "Rare",
+          "number": "112.5–150%"
+        },
+        {
+          "type": "Epic",
+          "number": "150–200%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Favor",
+      "slot": "Passive",
+      "description": "Afterward, Boons have +X% chance to be Rare or better.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "11–20%"
+        },
+        {
+          "type": "Rare",
+          "number": "16.5–30%"
+        },
+        {
+          "type": "Epic",
+          "number": "22–40%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["Also increase the chance of Epic and Legendary boons by +10%"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Flourish",
+      "slot": "Passive",
+      "description": "Afterward, your Special deals +X% damage.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30-60%"
+        },
+        {
+          "type": "Rare",
+          "number": "45-90%"
+        },
+        {
+          "type": "Epic",
+          "number": "60-120%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Grasp",
+      "slot": "Passive",
+      "description": "Afterward, gain +X Cast Ammo.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+1 Cast Ammo"
+        },
+        {
+          "type": "Rare",
+          "number": "+2 Cast Ammo"
+        },
+        {
+          "type": "Epic",
+          "number": "+3 Cast Ammo"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Lunge",
+      "slot": "Passive",
+      "description": "Afterward, your Dash Attack deals +X% damage.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30–60%"
+        },
+        {
+          "type": "Rare",
+          "number": "45–90%"
+        },
+        {
+          "type": "Epic",
+          "number": "60–120%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Shot",
+      "slot": "Passive",
+      "description": "Afterward, your Cast deals +X% damage.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30–40%"
+        },
+        {
+          "type": "Rare",
+          "number": "45–60%"
+        },
+        {
+          "type": "Epic",
+          "number": "60–80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Soul",
+      "slot": "Passive",
+      "description": "Afterward, gain +X Health.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30-40"
+        },
+        {
+          "type": "Rare",
+          "number": "45-60"
+        },
+        {
+          "type": "Epic",
+          "number": "60-80"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Strike",
+      "slot": "Passive",
+      "description": "Afterward, your Attack deals +X% damage.",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30–40%"
+        },
+        {
+          "type": "Rare",
+          "number": "45–60%"
+        },
+        {
+          "type": "Epic",
+          "number": "60–80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Defiance",
+      "slot": "Passive",
+      "description": "Afterward, gain +X Death Defiance (this escape attempt).",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "+1"
+        }
+      ],
+      "tier": "3",
+      "notes": ["This gives Zagreus +1 slot of Defiance, which is only lost after the his eventual death", "Upon depleting, the Defiance slot can be replenished with Kiss of Styx normally"],
+      "prerequisites": ["Abyssal", "Addled", "Atrophic", "Caustic", "Enshrouded", "Excruciating", "Flayed", "Halting", "Maimed", "Pauper's", "Roiling", "Slippery", "Slothful"]
+    },
+    {
+      "name": "Abyssal",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you take +300%–500% damage from traps.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Addled",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, each time you Cast, get hit for 3–5 Health.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Atrophic",
+      "slot": "Passive",
+      "description": "For the next 3-4 encounters, your Life Total is reduced by 25–49 Health.",
+      "tier": "Curse",
+      "notes": ["Will not appear if you have less than 50 total health."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Caustic",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, slain foes toss an Inferno-Bomb at you.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Enshrouded",
+      "slot": "Passive",
+      "description": "For the next 4–5 chambers, chamber reward previews are hidden.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Excruciating",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you take +20%–50% damage.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Flayed",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, each time you Special, get hit for 3–5 Health.",
+      "tier": "Curse",
+      "notes": [""],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Halting",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, your Dash has -20%–50% reduced range.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Maimed",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, each time you Attack, get hit for 3–5 Health.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Pauper's",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you cannot earn Obols.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Roiling",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you face +30%–80% more foes.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Slippery",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you cannot collect Cast Ammo for 10–15 seconds.",
+      "tier": "Curse",
+      "notes": ["Will not appear when Stygian Soul talent is selected."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Slothful",
+      "slot": "Passive",
+      "description": "For the next 3–4 encounters, you have -40%–-60% move speed.",
+      "tier": "Curse",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    }
+  ]
+}
+ 

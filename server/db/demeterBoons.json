@@ -1,0 +1,370 @@
+{
+  "boons": [
+    {
+      "name": "Frost Strike",
+      "slot": "Attack",
+      "description": "Your Attack is stronger and inflicts Chill.",
+      "effect": "Attack damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+40%"
+        },
+        {
+          "type": "Rare",
+          "number": "+52-60%"
+        },
+        {
+          "type": "Epic",
+          "number": "+72-80%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+92-100%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Frost Flourish",
+      "slot": "Special",
+      "description": "Your Special is stronger and inflicts Chill.",
+      "effect": "Special damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+60%"
+        },
+        {
+          "type": "Rare",
+          "number": "+78-90%"
+        },
+        {
+          "type": "Epic",
+          "number": "+108-120%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+138-150%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Crystal Beam",
+      "slot": "Cast",
+      "description": "Your Cast drops a crystal that fires a beam straight ahead for 5 sec.",
+      "effect": "Cast Damage (every 0.2 sec)",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "8"
+        },
+        {
+          "type": "Rare",
+          "number": "9.2"
+        },
+        {
+          "type": "Epic",
+          "number": "10.4"
+        },
+        {
+          "type": "Heroic",
+          "number": "11.6"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Beam slowly alters trajectory to hit nearest enemy.", "Cannot be combined with Aspect of Beowulf"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Mistral Dash",
+      "slot": "Dash",
+      "description": "Your Dash shoots a gust ahead that inflicts Chill.",
+      "effect": "Gust Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "15"
+        },
+        {
+          "type": "Rare",
+          "number": "22.5"
+        },
+        {
+          "type": "Epic",
+          "number": "30"
+        },
+        {
+          "type": "Heroic",
+          "number": "37.5"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Gust travels in the same direction you are facing.", "Range: 300"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Demeter's Aid",
+      "slot": "Call",
+      "description": "Your Call creates a winter vortex for 5 Sec., deals damage every 0.25 Sec inflicting Chill.",
+      "effect": "Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "11"
+        },
+        {
+          "type": "Epic",
+          "number": "12"
+        },
+        {
+          "type": "Heroic",
+          "number": "13"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Greater call bonus: increases duration to 15 Sec"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Frozen Touch",
+      "slot": "Passive",
+      "description": "After you take damage, damage and completely Chill your foe.",
+      "effect": "Revenge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "15"
+        },
+        {
+          "type": "Epic",
+          "number": "20"
+        },
+        {
+          "type": "Heroic",
+          "number": "25"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Rare Crop",
+      "slot": "Passive",
+      "description": "Your Boons become Common, then gain Rarity every 3 Encounter(s).",
+      "effect": "Random boons affected",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "1"
+        },
+        {
+          "type": "Rare",
+          "number": "2"
+        },
+        {
+          "type": "Epic",
+          "number": "3"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Unsellable", "Once taken, shows which Boons are being cultivated as part of the Boon Description.", "If Zagreus loses the Boon that is being cultivated (via purging or exchange), the Rare Crop effect is essentially lost.", "If taken before the 4th zone, Temple of Styx, each small room before the reward counts as one encounter."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Ravenous Will",
+      "slot": "Passive",
+      "description": "While you have no Cast Ammo, take 10% less damage and deal more.",
+      "effect": "Damage bonus",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+20%"
+        },
+        {
+          "type": "Epic",
+          "number": "+30%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+40%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Nourished Soul",
+      "slot": "Passive",
+      "description": "Any Health effects are more potent. Restore +30% now.",
+      "effect": "Improved Restoration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30%"
+        },
+        {
+          "type": "Rare",
+          "number": "32.25%"
+        },
+        {
+          "type": "Epic",
+          "number": "34.5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "36.75%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Unsellable"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Snow Burst",
+      "slot": "Passive",
+      "description": "Whenever you Cast, damage nearby foes and inflict Chill.",
+      "effect": "Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "40"
+        },
+        {
+          "type": "Rare",
+          "number": "50"
+        },
+        {
+          "type": "Epic",
+          "number": "60"
+        },
+        {
+          "type": "Heroic",
+          "number": "70"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Arctic Blast",
+      "slot": "Passive",
+      "description": "Applying 10 stacks of Chill causes a blast, clearing the effect.",
+      "effect": "Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "100"
+        },
+        {
+          "type": "Rare",
+          "number": "120"
+        },
+        {
+          "type": "Epic",
+          "number": "140"
+        },
+        {
+          "type": "Heroic",
+          "number": "160"
+        }
+      ],
+      "tier": "2",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": ["Demeter's Aid", "Frost Flourish", "Frost Strike", "Mistral Dash", "Snow Burst"]
+    },
+    {
+      "name": "Killing Freeze",
+      "slot": "Passive",
+      "description": "Applying Chill to all enemies causes them to Slow and Decay.",
+      "effect": "Slow X%, Decay Damage: Y (every 0.5 sec)",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10%, 20"
+        },
+        {
+          "type": "Rare",
+          "number": "15%, 30"
+        },
+        {
+          "type": "Epic",
+          "number": "20%, 40"
+        },
+        {
+          "type": "Heroic",
+          "number": "25%, 50"
+        }
+      ],
+      "tier": "2",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": ["Demeter's Aid", "Frost Flourish", "Frost Strike", "Mistral Dash", "Snow Burst"]
+    },
+    {
+      "name": "Glacial Glare",
+      "slot": "Passive",
+      "description": "Your Cast fires longer and inflicts Chill.",
+      "effect": "Bonus Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "2 Sec."
+        },
+        {
+          "type": "Rare",
+          "number": "2.4 Sec."
+        },
+        {
+          "type": "Epic",
+          "number": "2.8 Sec."
+        },
+        {
+          "type": "Heroic",
+          "number": "3.2 Sec."
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Crystal Beam"]
+    },
+    {
+      "name": "Winter Harvest",
+      "slot": "Passive",
+      "description": "Chill-affected foes shatter at 10% hp, inflicting Chill nearby.",
+      "effect": "Shatter Area Damage",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "50"
+        }
+      ],
+      "tier": "3",
+      "notes": ["Requires two of the three Prerequisite Boons"],
+      "prerequisites": ["Arctic Blast", "Ravenous Will", "Killing Freeze"]
+    }
+  ]
+}

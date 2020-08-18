@@ -1,0 +1,371 @@
+{
+  "boons": [
+    {
+      "name": "Drunken Strike",
+      "slot": "Attack",
+      "description": "Your Attack inflicts Hangover.",
+      "effect": "Hangover Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "4"
+        },
+        {
+          "type": "Rare",
+          "number": "5"
+        },
+        {
+          "type": "Epic",
+          "number": "6"
+        },
+        {
+          "type": "Heroic",
+          "number": "7"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Drunken Flourish",
+      "slot": "Special",
+      "description": "Your Special inflicts Hangover.",
+      "effect": "Hangover Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5"
+        },
+        {
+          "type": "Rare",
+          "number": "6"
+        },
+        {
+          "type": "Epic",
+          "number": "7"
+        },
+        {
+          "type": "Heroic",
+          "number": "8"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Trippy Shot",
+      "slot": "Cast",
+      "description": "Your Cast lobs a projectile that bursts into Festive Fog.",
+      "effect": "Blast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "100"
+        },
+        {
+          "type": "Rare",
+          "number": "120"
+        },
+        {
+          "type": "Epic",
+          "number": "140"
+        },
+        {
+          "type": "Heroic",
+          "number": "160"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Drunken Dash",
+      "slot": "Dash",
+      "description": "Your Dash inflicts foes near you with Hangover.",
+      "effect": "Hangover Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "2"
+        },
+        {
+          "type": "Rare",
+          "number": "3"
+        },
+        {
+          "type": "Epic",
+          "number": "4"
+        },
+        {
+          "type": "Heroic",
+          "number": "5"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Dionysus' Aid",
+      "slot": "Call",
+      "description": "Your Call inflicts Hangover to foes all around you for 1.5 Sec.",
+      "effect": "Hangover Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "15"
+        },
+        {
+          "type": "Rare",
+          "number": "16.5"
+        },
+        {
+          "type": "Epic",
+          "number": "18"
+        },
+        {
+          "type": "Heroic",
+          "number": "19.5"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Effect Range: 600", "Max Gauge Bonus: 9 Sec. Duration"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "After Party",
+      "slot": "Passive",
+      "description": "If your Health is low after Encounters, restore to the threshold.",
+      "effect": "Life Threshold",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30% Health"
+        },
+        {
+          "type": "Rare",
+          "number": "37.5% Health"
+        },
+        {
+          "type": "Epic",
+          "number": "45% Health"
+        },
+        {
+          "type": "Heroic",
+          "number": "60% Health"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Life Threshold value reduced by Lasting Consequences.", "This boon cannot be upgraded via poms.", "Heroic Rarity only obtainable with Ambrosia Delight."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Positive Outlook",
+      "slot": "Passive",
+      "description": "Take less damage while at 40% Health or below.",
+      "effect": "Damage Resistance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10%"
+        },
+        {
+          "type": "Rare",
+          "number": "15%"
+        },
+        {
+          "type": "Epic",
+          "number": "20%"
+        },
+        {
+          "type": "Heroic",
+          "number": "N/A"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Premium Vintage",
+      "slot": "Passive",
+      "description": "Gain Health when you pick up Nectar. Receive 1 Nectar now.",
+      "effect": "Life Gain",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "20 Health"
+        },
+        {
+          "type": "Rare",
+          "number": "25 Health"
+        },
+        {
+          "type": "Epic",
+          "number": "30 Health"
+        },
+        {
+          "type": "Heroic",
+          "number": "35 Health"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Unsellable"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Strong Drink",
+      "slot": "Passive",
+      "description": "Using a Fountain restores all Health and gives you bonus damage.",
+      "effect": "Bonus Damage per Fountain",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+3%"
+        },
+        {
+          "type": "Rare",
+          "number": "+4%"
+        },
+        {
+          "type": "Epic",
+          "number": "+5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+6%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Not offered if you have not unlocked the Tartarus Fountain Chamber"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Bad Influence",
+      "slot": "Passive",
+      "description": "Deal more damage while 3 foes are Hangover-afflicted.",
+      "effect": "Bonus Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "50%"
+        },
+        {
+          "type": "Rare",
+          "number": "65-75%"
+        },
+        {
+          "type": "Epic",
+          "number": "90-100%"
+        },
+        {
+          "type": "Heroic",
+          "number": "115-125%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Dionysus' Aid", "Drunken Dash", "Drunken Flourish", "Drunken Strike"]
+    },
+    {
+      "name": "Numbing Sensation",
+      "slot": "Passive",
+      "description": "Your Hangover effects also make foes move slower.",
+      "effect": "Speed Reduction",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "15%"
+        },
+        {
+          "type": "Rare",
+          "number": "19.5-22.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "30-33%"
+        },
+        {
+          "type": "Heroic",
+          "number": "37.5%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
+    },
+    {
+      "name": "Peer Pressure",
+      "slot": "Passive",
+      "description": "Hangover-afflicted foes contaminate other nearby foes every 4 Sec.",
+      "effect": "Hangover Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "4"
+        },
+        {
+          "type": "Rare",
+          "number": "5.2-6"
+        },
+        {
+          "type": "Epic",
+          "number": "8-10"
+        },
+        {
+          "type": "Heroic",
+          "number": "10-10.8"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Drunken Dash", "Drunken Flourish", "Drunken Strike"]
+    },
+    {
+      "name": "High Tolerance",
+      "slot": "Passive",
+      "description": "Take less damage while standing in Festive Fog.",
+      "effect": "Damage Resistance",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10-15%"
+        },
+        {
+          "type": "Rare",
+          "number": "13-22.5%"
+        },
+        {
+          "type": "Epic",
+          "number": "20-37.5%"
+        },
+        {
+          "type": "Heroic",
+          "number": "25-40.5%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": ["Trippy Shot"]
+    },
+    {
+      "name": "Black Out",
+      "slot": "Passive",
+      "description": "Hangover-afflicted foes take bonus damage in Festive Fog.",
+      "effect": "Haze Combo Damage",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "100%"
+        }
+      ],
+      "tier": "3",
+      "notes": [""],
+      "prerequisites": ["Bad Influence", "Dionysus' Aid", "Drunken Flourish", "Drunken Strike", "Numbing Sensation", "Peer Pressure"],
+      "prerequisitesDuo": ["High Tolerance", "Trippy Shot"]
+    }
+  ]
+}

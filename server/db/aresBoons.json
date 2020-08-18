@@ -1,0 +1,405 @@
+{
+  "boons": [
+    {
+      "name": "Curse of Agony",
+      "slot": "Attack",
+      "description": "Your Attack inflicts Doom.",
+      "effect": "Curse Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "50"
+        },
+        {
+          "type": "Rare",
+          "number": "75"
+        },
+        {
+          "type": "Epic",
+          "number": "100"
+        },
+        {
+          "type": "Heroic",
+          "number": "125"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Curse Delay: 1.1 Sec."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Curse of Pain",
+      "slot": "Special",
+      "description": "Your Special inflicts Doom.",
+      "effect": "Curse Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "60"
+        },
+        {
+          "type": "Rare",
+          "number": "80"
+        },
+        {
+          "type": "Epic",
+          "number": "100"
+        },
+        {
+          "type": "Heroic",
+          "number": "120"
+        }
+      ],
+      "tier": "1",
+      "notes": ["Curse Delay: 1.1 Sec."],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Slicing Shot",
+      "slot": "Cast",
+      "description": "Your Cast sends a Blade Rift hurling ahead.",
+      "effect": "Rift Damage per Hit",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "10"
+        },
+        {
+          "type": "Rare",
+          "number": "11"
+        },
+        {
+          "type": "Epic",
+          "number": "13"
+        },
+        {
+          "type": "Heroic",
+          "number": "14"
+        }
+      ],
+      "tier": "1",
+      "notes": [
+        "Duration: 4 Sec.", 
+        "Damage Interval: 0.1 Sec.", 
+        "Damage Radius: 150", 
+        "Speed: 250", 
+        "Cannot be combined with Aspect of Beowulf"
+      ],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Blade Dash",
+      "slot": "Dash",
+      "description": "Your Dash creates a Blade Rift where you started.",
+      "effect": "Rift Damage per Hit",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5"
+        },
+        {
+          "type": "Rare",
+          "number": "6"
+        },
+        {
+          "type": "Epic",
+          "number": "7"
+        },
+        {
+          "type": "Heroic",
+          "number": "8"
+        }
+      ],
+      "tier": "1",
+      "notes": [
+        "Duration: 0.7 Sec.", 
+        "Damage Interval: 0.1 Sec.", 
+        "Damage Radius: 150"
+      ],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Ares' Aid",
+      "slot": "Call",
+      "description": "Your Call turns you into an Impervious Blade Rift for 1.2 Sec.",
+      "effect": "Rift Damage per Hit",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "30"
+        },
+        {
+          "type": "Rare",
+          "number": "37.5"
+        },
+        {
+          "type": "Epic",
+          "number": "45"
+        },
+        {
+          "type": "Heroic",
+          "number": "52.5"
+        }
+      ],
+      "tier": "1",
+      "notes": [
+        "Wrath Cost: 50",
+        "Max Gauge Bonus 6 Sec"
+      ],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Curse of Vengeance",
+      "slot": "Passive",
+      "description": "After you take damage, inflict Doom on surrounding foes.",
+      "effect": "Revenge Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "90"
+        },
+        {
+          "type": "Rare",
+          "number": "99"
+        },
+        {
+          "type": "Epic",
+          "number": "108"
+        },
+        {
+          "type": "Heroic",
+          "number": "117"
+        }
+      ],
+      "tier": "1",
+      "notes": [
+        "Effect Radius: 450",
+        "Curse Delay: 1.1 Sec."
+      ],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Urge to Kill",
+      "slot": "Passive",
+      "description": "Your Attack and Cast deal more damage.",
+      "effect": "Attack and Cast Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+8%"
+        },
+        {
+          "type": "Rare",
+          "number": "+10%"
+        },
+        {
+          "type": "Epic",
+          "number": "+12%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+14%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Battle Rage",
+      "slot": "Passive",
+      "description": "After slaying a foe, your next Attack or Special deals more damage.",
+      "effect": "Damage Bonus",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+100%"
+        },
+        {
+          "type": "Rare",
+          "number": "+150%"
+        },
+        {
+          "type": "Epic",
+          "number": "+200%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+250%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Blood Frenzy",
+      "slot": "Passive",
+      "description": "After using Death Defiance, deal more damage that encounter.",
+      "effect": "Damage Bonus",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+10%"
+        },
+        {
+          "type": "Rare",
+          "number": "+15%"
+        },
+        {
+          "type": "Epic",
+          "number": "+20%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+25%"
+        }
+      ],
+      "tier": "1",
+      "notes": ["None"],
+      "prerequisites": ["None"]
+    },
+    {
+      "name": "Black Metal",
+      "slot": "Passive",
+      "description": "Your Blade Rift powers deal damage in a wider area.",
+      "effect": "Bonus Area of Effect",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+20%"
+        },
+        {
+          "type": "Rare",
+          "number": "+22%"
+        },
+        {
+          "type": "Epic",
+          "number": "+24%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+26%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": [
+        "Ares' Aid",
+        "Blade Dash",
+        "Slicing Flare",
+        "Slicing Shot"
+      ]
+    },
+    {
+      "name": "Engulfing Vortex",
+      "slot": "Passive",
+      "description": "Your Blade Rift effects last longer and pull foes in.",
+      "effect": "Rift Duration",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+0.2 Sec"
+        },
+        {
+          "type": "Rare",
+          "number": "+0.26-0.3 Sec"
+        },
+        {
+          "type": "Epic",
+          "number": "+0.4-0.5 Sec"
+        },
+        {
+          "type": "Heroic",
+          "number": "+0.5-0.54 Sec"
+        }
+      ],
+      "tier": "2",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": [
+        "Ares' Aid",
+        "Blade Dash",
+        "Slicing Flare",
+        "Slicing Shot"
+      ]
+    },
+    {
+      "name": "Dire Misfortune",
+      "slot": "Passive",
+      "description": "Your Doom effects deal more damage when applied multiple times.",
+      "effect": "Bonus Damage per Curse",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "5"
+        },
+        {
+          "type": "Rare",
+          "number": "7.5"
+        },
+        {
+          "type": "Epic",
+          "number": "10"
+        },
+        {
+          "type": "Heroic",
+          "number": "12.5"
+        }
+      ],
+      "tier": "2",
+      "notes": ["This boon cannot be upgraded via poms."],
+      "prerequisites": [
+        "Curse of Agony",
+        "Curse of Pain"
+      ]
+    },
+    {
+      "name": "Impending Doom",
+      "slot": "Passive",
+      "description": "Your Doom effects deal more damage, after +0.5 Sec.",
+      "effect": "Bonus Doom Damage",
+      "rarity": [
+        {
+          "type": "Common",
+          "number": "+60%"
+        },
+        {
+          "type": "Rare",
+          "number": "+66%"
+        },
+        {
+          "type": "Epic",
+          "number": "+72%"
+        },
+        {
+          "type": "Heroic",
+          "number": "+78%"
+        }
+      ],
+      "tier": "2",
+      "notes": ["None"],
+      "prerequisites": [
+        "Curse of Agony",
+        "Curse of Pain",
+        "Curse of Vengeance"]
+    },
+    {
+      "name": "Vicious Cycle",
+      "slot": "Passive",
+      "description": "Your Blade Rift effects deal more damage for each consecutive hit.",
+      "effect": "Damage Increase per Hit",
+      "rarity": [
+        {
+          "type": "Legendary",
+          "number": "1"
+        }
+      ],
+      "tier": "3",
+      "notes": ["None"],
+      "prerequisites": [
+        "Black Metal",
+        "Engulfing Vortex"
+      ]
+    }
+  ]
+}
