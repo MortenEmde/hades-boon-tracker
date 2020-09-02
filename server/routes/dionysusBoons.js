@@ -1,9 +1,10 @@
 const express = require('express');
+
 const router = express.Router();
 
-const dionysusBoons = require('../db/dionysusBoons.json')
+const dionysusBoons = require('../db/dionysusBoons.json');
 
-router.get('/', async function(req, res,) {
+router.get('/', async (req, res) => {
   res.send(dionysusBoons);
 });
 

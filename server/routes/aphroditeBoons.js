@@ -1,9 +1,10 @@
 const express = require('express');
+
 const router = express.Router();
 
-const aphroditeBoons = require('../db/aphroditeBoons.json')
+const aphroditeBoons = require('../db/aphroditeBoons.json');
 
-router.get('/', async function(req, res,) {
+router.get('/', async (req, res) => {
   res.send(aphroditeBoons);
 });
 

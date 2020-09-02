@@ -1,9 +1,10 @@
 const express = require('express');
+
 const router = express.Router();
 
-const hermesBoons = require('../db/hermesBoons.json')
+const hermesBoons = require('../db/hermesBoons.json');
 
-router.get('/', async function(req, res,) {
+router.get('/', async (req, res) => {
   res.send(hermesBoons);
 });
 

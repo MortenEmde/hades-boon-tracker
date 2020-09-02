@@ -1,10 +1,11 @@
+/* eslint-disable no-unused-vars */
 import { useEffect, useState } from 'react';
 import { Gods, Service } from '../ts/types';
 import { ServerUrl } from '../serverURL';
 
 const useGodsService = () => {
   const [gods, setGods] = useState<Service<Gods>>({
-    status: 'loading'
+    status: 'loading',
   });
 
   useEffect(() => {
@@ -14,7 +15,7 @@ const useGodsService = () => {
       .catch(error => setGods({ status: 'error', error }));
   }, []);
 
-  return gods
-}
+  return gods;
+};
 
 export default useGodsService;

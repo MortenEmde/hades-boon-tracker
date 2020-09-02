@@ -1,9 +1,10 @@
 const express = require('express');
+
 const router = express.Router();
 
-const artemisBoons = require('../db/artemisBoons.json')
+const artemisBoons = require('../db/artemisBoons.json');
 
-router.get('/', async function(req, res,) {
+router.get('/', async (req, res) => {
   res.send(artemisBoons);
 });
 

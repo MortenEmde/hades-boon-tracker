@@ -1,3 +1,2 @@
-export const formatName = (boonName: string) => {
-  return boonName.replace(/[^A-Z0-9]/ig, '')
-}
+const formatName = (boonName: string) => boonName.replace(/[^A-Z0-9]/gi, '');
+export { formatName as default };

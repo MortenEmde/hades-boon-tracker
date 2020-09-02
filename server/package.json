@@ -4,7 +4,7 @@
   "description": "server for hades boon tracker",
   "main": "index.js",
   "scripts": {
-    "lint": "eslint **/*.js || exit 0",
+    "lint": "eslint routes/*.js *.js",
     "start": "nodemon server.js"
   },
   "author": "Morten Christensen",
@@ -16,7 +16,7 @@
     "nodemon": "^2.0.4"
   },
   "devDependencies": {
-    "eslint": "^7.5.0",
+    "eslint": "^7.8.1",
     "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-import": "^2.22.0"
   }

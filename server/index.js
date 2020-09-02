@@ -34,7 +34,8 @@ app.use('/dionysusBoons', dionysusBoonsRouter);
 app.use('/hermesBoons', hermesBoonsRouter);
 app.use('/poseidonBoons', poseidonBoonsRouter);
 app.use('/zeusBoons', zeusBoonsRouter);
-app.use(express.static(__dirname + '/db/imgs'));
-app.use(express.static(__dirname + '/db/imgs/symbols'));
+app.use(express.static(`${__dirname}/db/imgs`));
+app.use(express.static(`${__dirname}/db/imgs/symbols`));
 
+// eslint-disable-next-line no-console
 app.listen(port, () => console.log(`App listening at http://localhost:${port}`));
