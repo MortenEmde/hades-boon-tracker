@@ -22,7 +22,8 @@
         ".tsx": "never"
       }
     ],
-    "arrow-parens": ["error", "as-needed"]
+    "arrow-parens": ["error", "as-needed"],
+    "consistent-return": ["error", { "treatUndefinedAsUnspecified": true }]
   },
   "settings": {
     "import/resolver": {

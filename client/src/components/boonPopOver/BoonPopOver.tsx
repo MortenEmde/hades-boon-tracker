@@ -11,22 +11,23 @@ interface BoonProps {
   handleClose: () => void;
 }
 
-const BoonPopOver: React.FC<BoonProps> = ({ boon, id, open, anchorEl, handleClose }) => {
-
+const BoonPopOver = ({
+  boon, id, open, anchorEl, handleClose,
+}: BoonProps) => {
   const boonPrereqRender = (prerequisites: Array<string>) => {
     if (prerequisites) {
       return (
-        <div>And (Any of below boons):
-        {prerequisites.map(duoreq => 
-          <p key={duoreq}>{duoreq}</p>
-        )}
+        <div>
+          And (Any of below boons):
+          {prerequisites.map(duoreq => <p key={duoreq}>{duoreq}</p>)}
         </div>
-      )
+      );
     }
-  }
+    return false;
+  };
 
   return (
-    <Popover 
+    <Popover
       id={id}
       open={open}
       anchorEl={anchorEl}
@@ -40,25 +41,58 @@ const BoonPopOver: React.FC<BoonProps> = ({ boon, id, open, anchorEl, handleClos
         horizontal: 'left',
       }}
     >
-      <div className='popOverContainer'>
-        <p>Name: {boon.name}</p>
-        <p>Slot: {boon.slot}</p>
-        <p>Description: {boon.description}</p>
-        {boon.effect !== undefined &&
-          <p>Effect: {boon.effect}</p>
-        }
-        {boon.rarity !== undefined &&
-          <div>{boon.rarity.map(rarity => <p key={rarity.type}>{rarity.type}: {rarity.number}</p>)}</div>
-        }
-        <p>Tier: {boon.tier}</p>
-        {boon.notes[0] !== 'None' &&
-          <div>Notes: {boon.notes.map(note => <p key={note}>{note}</p>)}</div>
-        }
-        <div>Prerequisites (Any of below boons): {boon.prerequisites.map(prereq => <p key={prereq}>{prereq}</p>)}</div>
+      <div className="popOverContainer">
+        <p>
+          Name:
+          {boon.name}
+        </p>
+        <p>
+          Slot:
+          {boon.slot}
+        </p>
+        <p>
+          Description:
+          {boon.description}
+        </p>
+        {boon.effect !== undefined
+          && (
+          <p>
+            Effect:
+            {boon.effect}
+          </p>
+          )}
+        {boon.rarity !== undefined
+          && (
+          <div>
+            {boon.rarity.map(rarity => (
+              <p key={rarity.type}>
+                {rarity.type}
+                :
+                {' '}
+                {rarity.number}
+              </p>
+            ))}
+          </div>
+          )}
+        <p>
+          Tier:
+          {boon.tier}
+        </p>
+        {boon.notes[0] !== 'None'
+          && (
+          <div>
+            Notes:
+            {boon.notes.map(note => <p key={note}>{note}</p>)}
+          </div>
+          )}
+        <div>
+          Prerequisites (Any of below boons):
+          {boon.prerequisites.map(prereq => <p key={prereq}>{prereq}</p>)}
+        </div>
         {boonPrereqRender(boon.prerequisitesDuo)}
       </div>
     </Popover>
   );
-}
+};
 
 export default BoonPopOver;

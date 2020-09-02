@@ -1,22 +1,21 @@
 import React, { useState } from 'react';
 import './RenderBoon.css';
-import { Boon, GodNameFromUrl } from '../../ts/types';
+import { Boon } from '../../ts/types';
 import { ServerUrl } from '../../serverURL';
 import BoonPopOver from '../boonPopOver/BoonPopOver';
 import LineBoons from '../lineBoons/LineBoons';
-import { formatName } from '../../services/formatName';
-import { godNameFromUrl } from '../../services/godNameFromUrl';
+import { formatName, godNameFromUrl } from '../../services/helperFunctions';
 
 interface BoonProps {
   boon: Boon;
 }
 
-const RenderBoon: React.FC<BoonProps> = ({ boon }) => {
+const RenderBoon = ({ boon }: BoonProps) => {
   const [anchorEl, setAnchorEl] = React.useState<HTMLImageElement | null>(null);
   const [showLines, setShowLines] = useState(false);
 
   const handleClick = (event: React.MouseEvent<HTMLImageElement>) => {
-    setAnchorEl(event.currentTarget)
+    setAnchorEl(event.currentTarget);
   };
 
   const handleClose = () => {
@@ -30,21 +29,21 @@ const RenderBoon: React.FC<BoonProps> = ({ boon }) => {
 
   return (
     <div className={`boon ${formatName(boon.name)}`}>
-      <img 
+      <img
         aria-describedby={id}
-        className="boonImage" 
-        src={`${ServerUrl}/${god}Boons/${formatName(boon.name)}.png`} 
-        alt='boon'
+        className="boonImage"
+        src={`${ServerUrl}/${god}Boons/${formatName(boon.name)}.png`}
+        alt="boon"
         onClick={handleClick}
         onMouseEnter={() => setShowLines(true)}
         onMouseLeave={() => setShowLines(false)}
       />
-      <BoonPopOver boon={boon} id={id} open={open} anchorEl={anchorEl} handleClose={handleClose}/>
+      <BoonPopOver boon={boon} id={id} open={open} anchorEl={anchorEl} handleClose={handleClose} />
       {showLines && (
-        <LineBoons boonData={boon} god={god}/>
+        <LineBoons boonData={boon} god={god} />
       )}
     </div>
   );
-}
+};
 
 export default RenderBoon;

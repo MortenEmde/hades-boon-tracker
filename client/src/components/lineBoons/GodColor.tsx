@@ -1,6 +1,6 @@
 import { GodNameFromUrl } from '../../ts/types';
 
-export const GodColor = (god: GodNameFromUrl) => {
+const GodColor = (god: GodNameFromUrl) => {
   switch (god) {
     case 'aphrodite':
       return 'plum';
@@ -22,5 +22,9 @@ export const GodColor = (god: GodNameFromUrl) => {
       return 'deepskyblue';
     case 'zeus':
       return 'gold';
+    default:
+      return 'gold';
   }
-}
+};
+
+export default GodColor;

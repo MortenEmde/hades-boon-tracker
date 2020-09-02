@@ -9,10 +9,8 @@ const Gods: React.FC = () => {
   return (
     <div className="containerGods">
       {service.status === 'loading' && <div>Loading...</div>}
-      {service.status === 'loaded' &&
-        service.payload.gods.map(god => 
-          <RenderGod key={god.name} god={god}/>
-        )}
+      {service.status === 'loaded'
+        && service.payload.gods.map(god => <RenderGod key={god.name} god={god} />)}
       {service.status === 'error' && (
         <div>Error, the backend has been bested by the Titans.</div>
       )}

@@ -1,4 +1,6 @@
-const godNameFromUrl = (url: string) => {
+export const formatName = (boonName: string) => boonName.replace(/[^A-Z0-9]/gi, '');
+
+export const godNameFromUrl = (url: string) => {
   const regex = /[^/].+?(?=boons)/;
   const regexMatch: RegExpMatchArray | null = url.match(regex);
   if (regexMatch) {
@@ -6,5 +8,3 @@ const godNameFromUrl = (url: string) => {
   }
   return 'godnotfound';
 };
-
-export { godNameFromUrl as default };
