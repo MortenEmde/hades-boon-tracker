@@ -359,11 +359,11 @@
       "rarity": [
         {
           "type": "Common",
-          "number": "MISSING DATA"
+          "number": "2.75 Sec."
         },
         {
           "type": "Rare",
-          "number": "MISSING DATA"
+          "number": "2.50 Sec"
         },
         {
           "type": "Epic",
@@ -371,7 +371,7 @@
         },
         {
           "type": "Heroic",
-          "number": "MISSING DATA"
+          "number": "2.00 Sec"
         }
       ],
       "tier": "1",
